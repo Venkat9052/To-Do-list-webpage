@@ -1,0 +1,81 @@
+#heading{
+    font-family: algerian;
+    font-weight: 300;
+}
+
+#heading:hover{
+
+    color:gold;
+
+}
+
+body{
+    background-color: darkgrey;
+
+}
+
+nav{
+    background-color: grey;
+    color:whitesmoke;
+}
+
+#first{
+
+    font-family: 'Times New Roman', Times, serif;
+    display:inline;
+    font-weight: 100;
+    margin-right: 10px;
+
+}
+
+#second{
+    font-family: 'Times New Roman', Times, serif;
+    display:inline;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+.myform{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#add{
+    background-color:rgb(159, 197, 231);
+    color:black;
+    margin-top: 5px;
+    border-radius: 95%;
+    margin-bottom: 10px;
+}
+
+#add:active{
+    color:black;
+    background-color:blue;
+}
+
+#deleted{
+    background-color: aqua;
+    color:black;
+    border:1px solid black;
+}
+
+#deleted:hover{
+    background-color: aliceblue;
+}
+
+#deleted:active{
+    background-color: aquamarine;
+    color:black;
+}
+
+#clears{
+    background-color:rgb(159, 197, 231);
+    color:black;
+    margin-top: 5px;
+    border-radius: 95%;
+    margin-bottom: 10px;
+    border:1px solid black;
+}
